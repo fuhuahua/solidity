@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "greet",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/basic/Greeter.sol": "Greeter"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/basic/Greeter.sol": {
+			"keccak256": "0x4e6f9886f138b1ceccf238af1c4c69e31ee79b42c46d36dbe8d4f0cac18a489c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://918a624c9d85cae7aa8c7fd4329a9804a6e2a0ec609f6a5642188b17553cd7c1",
+				"dweb:/ipfs/QmNkAt7taoDVrgxey9BSKonFD5t9PNDpHioqksAPnhRymW"
+			]
+		}
+	},
+	"version": 1
+}

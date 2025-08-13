@@ -1,0 +1,113 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "arithmetic",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "sum",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "difference",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "product",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "quoient",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "b",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "c",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/basic/IntegerDataType.sol": "IntegerDataType"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/basic/IntegerDataType.sol": {
+			"keccak256": "0xc8477a90769fde36d1a9d5bfc567a9ccdbe6546d2e9ee8eda1d7256dd223e4e8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fc7da641a5dbde5119c4643d7fa9f03635fd88b9963a4a4237fc6467a7a3c67e",
+				"dweb:/ipfs/QmS9iAwYd5iqcAAtYDyQujbh69277E6ry1V4rxc513MXpP"
+			]
+		}
+	},
+	"version": 1
+}

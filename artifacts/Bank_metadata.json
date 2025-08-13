@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increase",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/basic/Bank.sol": "Bank"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/basic/Bank.sol": {
+			"keccak256": "0xb21fefdf707700282bf1110370cfcd9b207e2d880b306f37df04778db561f3d0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://56a31f60958aa30d55d56f64f4903a8204e28390eccce26e9ee46b8b7a95480d",
+				"dweb:/ipfs/QmXvvXZxxzLis7CJFR78o4PU7TzeK5fJVHq53X6LDaDzgR"
+			]
+		}
+	},
+	"version": 1
+}
